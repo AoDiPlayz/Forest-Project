@@ -14,16 +14,16 @@ For this project, we have implemented a jungle environment where the background 
 - Issues with VR Implementation \
   One of the major challenges when creating our project was when Unity would not recognize our VR headset. We found out that Unity was blocked on regular headsets and that we would need to activate Developer Mode. Another challenge we faced was with movement because while the movement axis was fixed, the orientation of our vision was not and so moving around the simulation proved teo be quite tricky. We were unable to solve this issue and worked around it by learning to navigate based on memorizing the axis of movement.
 ### What would we do Differently the next time
-- Impelmeenting more Animals \
+- Impelmeenting More Animals \
   As we already know the correct parameters for the Nav Mesh Agent we could copy these parameters for another Animal. The Nav Mesh Surface is already set up and so there would not be much work to implement another Animals AI movement. The issue that prevented us from implementing anither aninak was not finding a suitable prefab online that already contained animation states and would work wtih our script. Next time if unable to find other animal pre fabs I would implement stationary Animals in the background to create a more realistic space.
 - Interaction with the Animals \
 Currrently our simualtion does not have any interaction with the animals. To make the simulation more engaging for users we could implement actions such as feeding or playing catch that would increase engagement and improve the entertainment and educational value of the simulation.
 - VR Movement \
 Another thing we would do would be to edit the movement such that that the movement axis is based on the direction the VR headset is facing.
 ## User Manual
-- When first booting up \
+- When First Booting Up \
 Ensure that your VR headset has enbaled devleloper mode. If not go on your unity account and enable developer mode for the headset. Ensure that your Unity has Android SBK installed and all the files necessary for VR implementation. Connect the headset to your device and go into build setting and select your VR headset as the device to run on. The build and run.
-- Once in the simulation \
+- Once in the Simulation \
 You will begin the simulation in the center of the environment. In front of you is a button that if pressed will make an information panel that tells you about the American Red Wolf appear. Next to the information panel will be a model of the American Red Wolf that you can walk around to inspect. While you do this, an American Red Wolf will be exploring the environment around you. You will get the chance to observe what an American Red Wolf is like in the wild rather than in a zoo. The wolf will walk around. It will run when it wants and sit when it wants. You will also be able to walk up to the wolf to observe it up close and personal. Once done observing you can press the button to make the popups disappear and when you wish to exit, go into the menu of the VR headset to exit the simulation.
 ## Contributions
 - Andre Llenata: Wolf Code, Popups upon Interaction

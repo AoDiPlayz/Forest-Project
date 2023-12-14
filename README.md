@@ -4,7 +4,7 @@ Our project aims to address issues in animal captivity by offering a VR simulati
 Our VR simulation offers a jungle environment with interactive animals and pop-ups containing information on the animal. It's ideal for schools, museums, and areas with limited access to nature, providing an immersive educational experience. While targeted towards young children, adults can also enjoy this engaging VR environment as it is not only educational but also entertaining.
 ### Implementation
 For this project, we have implemented a jungle environment where the background and the setting strongly represents the natural environment of a wild animal. We have also implemented audio to further represent a jungle. We have added a wolf into the environment where the wolf moves around as it would it do naturally in its habitat. We have also added popups upon interaction with our UI where the popups include educational information on the animal.
-### Problems and Challenges when creating our Project
+## Problems and Challenges when creating our Project
 - Issues with the Environment \
   When we first imported our Environment, the camera was located at the corner of the environment and sunk into the environment. As we were very new to Unity we had to learn how to move the game camera towards the center of our Environement.
 - Issues with the Nav Mesh Agent and Nav Mesh Surface \
